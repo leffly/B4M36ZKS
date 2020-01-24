@@ -60,7 +60,7 @@ public class CourseTest {
     @Order(1)
     public void whenAdminCreatesNewCourseThenShouldSeeNewCreatedCourseTest(){
         int randomId = new Random().nextInt(1000);
-        String expectedCourseName = "Anglicka konverzece " + randomId;
+        String expectedCourseName = "Anglicka konverzace " + randomId;
         String expectedShortname = "AK" + randomId;
 
         givenThat(admin).wasAbleTo(StartWith.moodleHomePage());

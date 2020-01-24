@@ -11,6 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.concurrent.TimeUnit;
 
+@RunWith(SerenityRunner.class)
 public class InitTest {
 
     protected static WebDriver browser;
