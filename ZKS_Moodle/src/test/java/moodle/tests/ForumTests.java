@@ -55,11 +55,11 @@ public class ForumTests {
         showDialogActivitiesButton.click();
 
         WebElement forumActivitySelect = browser.findElement(
-                By.xpath("/html/body/div[7]/div[3]/div/div[2]/div/div/form/div[2]/div[2]/div[8]/label/span[2]"));
+                By.xpath("/html/body/div[8]/div[3]/div/div[2]/div/div/form/div[2]/div[2]/div[8]/label/span[2]"));
         forumActivitySelect.click();
 
         WebElement addActivityButton = browser.findElement(
-                By.xpath("/html/body/div[7]/div[3]/div/div[2]/div/div/form/div[3]/input[1]"));
+                By.xpath("/html/body/div[8]/div[3]/div/div[2]/div/div/form/div[3]/input[1]"));
         addActivityButton.click();
 
         WebElement forumNameInput = browser.findElement(
